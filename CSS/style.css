@@ -1,0 +1,10 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import "tailwindcss";
+@import "../node_modules/flowbite/src/themes/default.css";
+@import "../node_modules/flowbite/dist/flowbite.min.css";
+@source "../node_modules/flowbite";
+@theme {
+  --font-family-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+}
+

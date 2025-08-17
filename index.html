@@ -1,0 +1,1340 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="img/Logo.svg" />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link href="./CSS/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="img/Logo.svg" class="h-8" alt="Flowbite Logo" />
+          <p
+            class="self-center text-2xl font-semibold whitespace-nowrap text-blue-950"
+          >
+            <span class="">House</span><span class="text-blue-400">Fix</span>
+          </p>
+        </a>
+        <button
+          data-collapse-toggle="navbar-dropdown"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-dropdown"
+          aria-expanded="false"
+        >
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            fill="none"
+            viewBox="0 0 17 14"
+          ></svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+          <ul
+            class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <button
+                id="dropdownNavbarLink"
+                data-dropdown-toggle="dropdownNavbar"
+                class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+              >
+                Home
+                <svg
+                  class="w-2.5 h-2.5 ms-2.5"
+                  aria-hidden="true"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                ></svg>
+              </button>
+              <div
+                id="dropdownNavbar"
+                class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600"
+              ></div>
+            </li>
+            <li>
+              <button
+                id="dropdownNavbarLink"
+                data-dropdown-toggle="dropdownNavbar"
+                class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+              >
+                Blog
+                <svg
+                  class="w-2.5 h-2.5 ms-2.5"
+                  aria-hidden="true"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                ></svg>
+              </button>
+              <div
+                id="dropdownNavbar"
+                class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600"
+              ></div>
+            </li>
+            <li>
+              <button
+                id="dropdownNavbarLink"
+                data-dropdown-toggle="dropdownNavbar"
+                class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+              >
+                Pages
+                <svg
+                  class="w-2.5 h-2.5 ms-2.5"
+                  aria-hidden="true"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                ></svg>
+              </button>
+              <div
+                id="dropdownNavbar"
+                class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600"
+              ></div>
+            </li>
+            <li>
+              <button
+                id="dropdownNavbarLink"
+                data-dropdown-toggle="dropdownNavbar"
+                class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+              >
+                Contact Us
+                <svg
+                  class="w-2.5 h-2.5 ms-2.5"
+                  aria-hidden="true"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                ></svg>
+              </button>
+              <div
+                id="dropdownNavbar"
+                class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600"
+              ></div>
+            </li>
+            <button
+              type="button"
+              class="text-white bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-sm text-sm px-4 py-2 text-center dark:bg-sky-500 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Schedule a Call
+            </button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section
+      class="hero relative min-h-screen bg-gradient-to-r from-blue-900 to-blue-700 overflow-hidden"
+      style="background-image: url('img/body.jpg')"
+    >
+      <div class="container mx-auto px-12">
+        <div class="absolute inset-0 bg-blue-900/20"></div>
+        <div
+          class="relative z-10 container mx-auto px-6 min-h-screen flex items-center"
+        >
+          <div class="grid lg:grid-cols-2 gap-12 items-center w-full">
+            <div class="text-white space-y-8 gap-3">
+              <h1
+                class="text-4xl lg:text-5xl font-bold leading-tight font-sans"
+              >
+                Plumbing Experts Right <br />
+                at Your Doorstep
+              </h1>
+
+              <p
+                class="text-lg lg:text-lg text-blue-100 leading-relaxed max-w-lg"
+              >
+                Our plumbers are the most recognized professionals globally
+                because we're committed to excellent service, and nothing wears
+                on homeowners like the idea of handling plumbing problems.
+              </p>
+
+              <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                <button
+                  class="bg-blue-500 hover:bg-sky-500 text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                >
+                  Request a Job Estimate
+                </button>
+
+                <button
+                  class="border-2 border-blue-500 text-blue-100 hover:bg-blue-300 hover:border-blue-300 hover:text-blue-900 font-semibold px-8 py-4 rounded-lg transition-all duration-300"
+                >
+                  Pricing Plans
+                </button>
+              </div>
+            </div>
+            <div class="relative">
+              <div class="relative">
+                <div class="w-9/12 h-fit mx-auto relative">
+                  <img src="img/Image-Container.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="service py-12">
+      <div
+        class="tittle text-sky-500 text-center flex items-center justify-center gap-2"
+      >
+        <h4>Services We Provide</h4>
+        <i class="fa-solid fa-arrow-right-long"></i>
+      </div>
+      <h2 class="text-4xl text-center text-blue-950 font-semibold">
+        The Best Plumbing Service & Maintanence
+      </h2>
+
+      <div class="cardss max-w-7xl mx-auto py-7 rounded-2xl">
+        <div class="flex flex-wrap gap-6 justify-center max-w-6xl mx-auto py-5">
+          <div
+            class="max-w-sm bg-sky-50 border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 flex-1 min-w-80"
+          >
+            <div>
+              <a href="#">
+                <img
+                  class="rounded-t-lg w-full h-48 object-cover"
+                  src="img/service1.jpg"
+                  alt="Plumbing Installation"
+                />
+              </a>
+              <div class="p-5">
+                <a href="#">
+                  <div class="img py-3">
+                    <img src="img/Icon/Pipe-Installation.png" alt="" />
+                  </div>
+                  <div
+                    class="mb-2 text-2xl font-semibold leading-4 tracking-tight py-2 text-blue-950 dark:text-white"
+                  >
+                    Plumbing Installation
+                  </div>
+                </a>
+                <p
+                  class="mb-3 text-sm font-normal text-slate-950 dark:text-gray-400"
+                >
+                  Lorem ipsum dolor sit amet consectetur. Adipiscing <br />quis
+                  ornare hac convallis a diam gravida in. Ac in <br />
+                  tempus leo dolor nisl donec erat consequat.
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center px-3 py-2 text-lg font-medium text-center text-slate-950 hover:text-sky-500 transition-colors"
+                >
+                  Learn More
+                  <i class="fa-solid fa-arrow-right-long ml-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="max-w-sm bg-sky-50 border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 flex-1 min-w-80"
+          >
+            <div>
+              <a href="#">
+                <img
+                  class="rounded-t-lg w-full h-48 object-cover"
+                  src="img/service2.jpg"
+                  alt="Heating & Cooling"
+                />
+              </a>
+              <div class="p-5">
+                <a href="#">
+                  <div class="img py-3">
+                    <img src="img/Icon/Pipe-Plumbing.png" alt="" />
+                  </div>
+                  <div
+                    class="mb-2 text-2xl font-semibold leading-4 tracking-tight py-2 text-blue-950 dark:text-white"
+                  >
+                    General Plumbing
+                  </div>
+                </a>
+                <p
+                  class="mb-3 text-sm font-normal text-slate-950 dark:text-gray-400"
+                >
+                  Lorem ipsum dolor sit amet consectetur. Adipiscing <br />quis
+                  ornare hac convallis a diam gravida in. Ac in <br />
+                  tempus leo dolor nisl donec erat consequat.
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center px-3 py-2 text-lg font-medium text-center text-slate-950 hover:text-blue-600 transition-colors"
+                >
+                  Learn More
+                  <i class="fa-solid fa-arrow-right-long ml-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="max-w-sm bg-sky-50 border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 flex-1 min-w-80"
+          >
+            <div>
+              <a href="#">
+                <img
+                  class="rounded-t-lg w-full h-48 object-cover"
+                  src="img/service3.jpg"
+                  alt="Electrical Services"
+                />
+              </a>
+              <div class="p-5">
+                <a href="#">
+                  <div class="img py-3">
+                    <img src="img/Icon/Pipe-Maintanence.png" alt="" />
+                  </div>
+                  <div
+                    class="mb-2 text-2xl font-semibold leading-4 tracking-tight py-2 text-blue-950 dark:text-white"
+                  >
+                    Plumbing Maintanence
+                  </div>
+                </a>
+                <p
+                  class="mb-3 text-sm font-normal text-slate-950 dark:text-gray-400"
+                >
+                  Lorem ipsum dolor sit amet consectetur. Adipiscing <br />quis
+                  ornare hac convallis a diam gravida in. Ac in <br />
+                  tempus leo dolor nisl donec erat consequat.
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center px-3 py-2 text-lg font-medium text-center text-slate-950 hover:text-blue-600 transition-colors"
+                >
+                  Learn More
+                  <i class="fa-solid fa-arrow-right-long ml-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="max-w-sm bg-sky-50 border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 flex-1 min-w-80"
+          >
+            <div>
+              <a href="#">
+                <img
+                  class="rounded-t-lg w-full h-48 object-cover"
+                  src="img/service4.jpg"
+                  alt="Plumbing Installation"
+                />
+              </a>
+              <div class="p-5">
+                <a href="#">
+                  <div class="img py-3">
+                    <img src="img/Icon/Pipe-Dual Pipe.png" alt="" />
+                  </div>
+                  <div
+                    class="mb-2 text-2xl font-semibold leading-4 tracking-tight py-2 text-blue-950 dark:text-white"
+                  >
+                    Fixing Pipes
+                  </div>
+                </a>
+                <p
+                  class="mb-3 text-sm font-normal text-slate-950 dark:text-gray-400"
+                >
+                  Lorem ipsum dolor sit amet consectetur. Adipiscing <br />quis
+                  ornare hac convallis a diam gravida in. Ac in <br />
+                  tempus leo dolor nisl donec erat consequat.
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center px-3 py-2 text-lg font-medium text-center text-slate-950 hover:text-blue-600 transition-colors"
+                >
+                  Learn More
+                  <i class="fa-solid fa-arrow-right-long ml-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="max-w-sm bg-sky-50 border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 flex-1 min-w-80"
+          >
+            <div>
+              <a href="#">
+                <img
+                  class="rounded-t-lg w-full h-48 object-cover"
+                  src="img/service5.jpg"
+                  alt="Heating & Cooling"
+                />
+              </a>
+              <div class="p-5">
+                <a href="#">
+                  <div class="img py-3">
+                    <img src="img/Icon/Pipe-Line Consultation.png" alt="" />
+                  </div>
+                  <div
+                    class="mb-2 text-2xl font-semibold leading-4 tracking-tight py-2 text-blue-950 dark:text-white"
+                  >
+                    Plumbing Line Consultation
+                  </div>
+                </a>
+                <p
+                  class="mb-3 text-sm font-normal text-slate-950 dark:text-gray-400"
+                >
+                  Lorem ipsum dolor sit amet consectetur. Adipiscing <br />quis
+                  ornare hac convallis a diam gravida in. Ac in <br />
+                  tempus leo dolor nisl donec erat consequat.
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center px-3 py-2 text-lg font-medium text-center text-slate-950 hover:text-blue-600 transition-colors"
+                >
+                  Learn More
+                  <i class="fa-solid fa-arrow-right-long ml-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="max-w-sm bg-sky-50 border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 flex-1 min-w-80"
+          >
+            <div>
+              <a href="#">
+                <img
+                  class="rounded-t-lg w-full h-48 object-cover"
+                  src="img/service6.jpg"
+                  alt="Electrical Services"
+                />
+              </a>
+              <div class="p-5">
+                <a href="#">
+                  <div class="img py-3">
+                    <img src="img/Icon/Pipe-Sunction.png" alt="" />
+                  </div>
+                  <div
+                    class="mb-2 text-2xl font-semibold leading-4 tracking-tight py-2 text-blue-950 dark:text-white"
+                  >
+                    Drain Cleaning
+                  </div>
+                </a>
+                <p
+                  class="mb-3 text-sm font-normal text-slate-950 dark:text-gray-400"
+                >
+                  Lorem ipsum dolor sit amet consectetur. Adipiscing <br />quis
+                  ornare hac convallis a diam gravida in. Ac in <br />
+                  tempus leo dolor nisl donec erat consequat.
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center px-3 py-2 text-lg font-medium text-center text-slate-950 hover:text-blue-600 transition-colors"
+                >
+                  Learn More
+                  <i class="fa-solid fa-arrow-right-long ml-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-12">
+      <div class="max-w-6xl mx-auto">
+        <div class="bg-white overflow-hidden">
+          <div class="flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 relative p-6">
+              <div class="relative inline-block">
+                <div
+                  class="absolute -bottom-5 -right-5 w-full h-full bg-sky-500"
+                ></div>
+
+                <img
+                  src="img/water.jpg"
+                  alt="Plumbing Care"
+                  class="relative z-10 shadow-lg"
+                />
+              </div>
+            </div>
+
+            <div class="lg:w-1/2 p-8 lg:p-12">
+              <h2
+                class="text-3xl lg:text-4xl font-bold text-blue-800 mb-6 leading-tight"
+              >
+                Taking regular plumbing care will save you time and money
+              </h2>
+
+              <p class="text-gray-600 mb-8 leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco.
+              </p>
+
+              <div class="space-y-4 mb-8">
+                <div class="flex items-center">
+                  <img src="img/Icon/Check.png" class="mr-2" />
+                  <span class="text-gray-700 font-medium"
+                    >Praesent Sodales Orci</span
+                  >
+                </div>
+
+                <div class="flex items-center">
+                  <img src="img/Icon/Check.png" class="mr-2" />
+                  <span class="text-gray-700 font-medium"
+                    >Curabitur Dignissim</span
+                  >
+                </div>
+
+                <div class="flex items-center">
+                  <img src="img/Icon/Check.png" class="mr-2" />
+                  <span class="text-gray-700 font-medium"
+                    >Nulla Condimentum</span
+                  >
+                </div>
+              </div>
+
+              <button
+                class="bg-sky-500 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300 flex items-center group"
+              >
+                More About Us
+                <i
+                  class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform duration-300"
+                ></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-blue-50 py-16">
+      <div class="max-w-6xl mx-auto text-center">
+        <h3
+          class="text-sky-500 font-semibold mb-2 flex items-center justify-center gap-2"
+        >
+          Pricing Plans
+          <span>⟶</span>
+        </h3>
+        <h2 class="text-3xl md:text-4xl font-bold text-blue-950 mb-6">
+          Affordable Pricing Plans
+        </h2>
+
+        <div class="flex justify-center mb-12 bg-sky-50">
+          <label class="inline-flex items-center cursor-pointer">
+            <span class="mr-3 text-blue-950 font-semibold text-lg"
+              >Monthly</span
+            >
+            <input type="checkbox" value="" class="sr-only peer" />
+            <div
+              class="relative w-14 h-7 bg-gray-200 rounded-full peer peer-checked:bg-sky-500 after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:after:translate-x-7"
+            ></div>
+            <span class="ml-3 text-blue-950 font-semibold text-lg">Annual</span>
+          </label>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div
+            class="bg-white rounded-lg shadow-md p-8 flex flex-col text-left"
+          >
+            <h3 class="text-xl font-semibold mb-4 text-gray-800">
+              Residential Plumbing
+            </h3>
+            <p class="text-4xl font-bold text-sky-500 mb-6">
+              $199<span class="text-lg font-medium text-gray-600">/Month</span>
+            </p>
+            <ul class="space-y-3 mb-8 text-gray-700">
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Free Diagnostics
+                & Consultation
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Plumbing Repairs
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Emergency
+                Plumbing
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Sewer & Drain
+                Cleaning
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Trenchless Sewer
+                Replacement
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Heater
+                Installation & Replacement, Repair
+              </li>
+            </ul>
+            <button
+              class="w-full border border-sky-500 text-blue-950 hover:bg-sky-500 hover:text-white font-semibold py-3 px-6 rounded-lg transition-colors"
+            >
+              Get Started
+            </button>
+          </div>
+
+          <div
+            class="bg-white rounded-lg shadow-lg p-8 flex flex-col text-left border-2 border-sky-500"
+          >
+            <h3 class="text-xl font-semibold mb-4 text-gray-800">
+              Commercial Plumbing
+            </h3>
+            <p class="text-4xl font-bold text-sky-500 mb-6">
+              $499<span class="text-lg font-medium text-gray-600">/Month</span>
+            </p>
+            <ul class="space-y-3 mb-8 text-gray-700">
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Installations,
+                Repairs, And Replacements
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Leak Detection
+                And Repair
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Water & Gas
+                Piping
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Drain Cleaning &
+                Sewer Service
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Plumbing
+                Inspections & Maintenance
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Heater
+                Installation & Replacement, Repair
+              </li>
+            </ul>
+            <button
+              class="w-full border border-sky-500 text-blue-950 hover:bg-sky-500 hover:text-white font-semibold py-3 px-6 rounded-lg transition-colors"
+            >
+              Get Started
+            </button>
+          </div>
+
+          <div
+            class="bg-white rounded-lg shadow-md p-8 flex flex-col text-left"
+          >
+            <h3 class="text-xl font-semibold mb-4 text-gray-800">
+              Service & Repair
+            </h3>
+            <p class="text-4xl font-bold text-sky-500 mb-6">
+              $399<span class="text-lg font-medium text-gray-600">/Month</span>
+            </p>
+            <ul class="space-y-3 mb-8 text-gray-700">
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Replace Spare
+                Parts
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Maintenance
+                Services
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Water Heater
+                Repair Services
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Free Diagnostics
+                & Consultation
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Toilet Repair,
+                Sewer Repair & Leak Repair
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-sky-500 mr-2"></i> Heater
+                Installation & Replacement, Repair
+              </li>
+            </ul>
+            <button
+              class="w-full border border-sky-500 text-blue-950 hover:bg-sky-500 hover:text-white font-semibold py-3 px-6 rounded-lg transition-colors"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="recent-work" class="bg-gray-50 py-16">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <h3
+          class="text-sky-500 font-semibold mb-2 flex items-center justify-center gap-2"
+        >
+          Featured Projects
+          <span>⟶</span>
+        </h3>
+        <h2 class="text-3xl font-bold text-blue-950 mb-12">Our Recent Work</h2>
+
+        <div
+          class="inline-flex rounded-md shadow-xs pb-11 mx-auto"
+          role="group"
+        >
+          <h4
+            type="button"
+            class="px-4 py-2 text-sm font-medium text-blue-950 hover:underline focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
+          >
+            All projects
+          </h4>
+          <h4
+            type="button"
+            class="px-4 py-2 text-sm font-medium text-blue-950 hover:underline focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
+          >
+            Commercial Services
+          </h4>
+          <h4
+            type="button"
+            class="px-4 py-2 text-sm font-medium text-blue-950 hover:underline focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
+          >
+            Residential Services
+          </h4>
+          <h4
+            type="button"
+            class="px-4 py-2 text-sm font-medium text-blue-950 hover:underline focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
+          >
+            Emergency Services
+          </h4>
+        </div>
+
+        <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+          <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="img/work1.jpg"
+              alt="Project 1"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+
+            <div
+              class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            ></div>
+
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            >
+              <div class="text-center text-white px-4">
+                <h3 class="text-xl font-semibold mb-2">Kitchen Leak Fix</h3>
+                <hr class="w-full" />
+                <p class="text-sm">Fixed an under-sink leak within 1 hour.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="img/work2.jpg"
+              alt="Project 1"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+
+            <div
+              class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            ></div>
+
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            >
+              <div class="text-center text-white px-4">
+                <h3 class="text-xl font-semibold mb-2">Kitchen Leak Fix</h3>
+                <hr class="w-full" />
+                <p class="text-sm">Fixed an under-sink leak within 1 hour.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="img/work3.jpg"
+              alt="Project 1"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+
+            <div
+              class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            ></div>
+
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            >
+              <div class="text-center text-white px-4">
+                <h3 class="text-xl font-semibold mb-2">Kitchen Leak Fix</h3>
+                <hr class="w-full" />
+                <p class="text-sm">Fixed an under-sink leak within 1 hour.</p>
+              </div>
+            </div>
+          </div>
+          <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="img/work4.jpg"
+              alt="Project 1"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+
+            <div
+              class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            ></div>
+
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            >
+              <div class="text-center text-white px-4">
+                <h3 class="text-xl font-semibold mb-2">Kitchen Leak Fix</h3>
+                <hr class="w-full" />
+                <p class="text-sm">Fixed an under-sink leak within 1 hour.</p>
+              </div>
+            </div>
+          </div>
+          <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="img/work5.jpg"
+              alt="Project 1"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+
+            <div
+              class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            ></div>
+
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            >
+              <div class="text-center text-white px-4">
+                <h3 class="text-xl font-semibold mb-2">Kitchen Leak Fix</h3>
+                <hr class="w-full" />
+                <p class="text-sm">Fixed an under-sink leak within 1 hour.</p>
+              </div>
+            </div>
+          </div>
+          <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="img/work6.jpg"
+              alt="Project 1"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+
+            <div
+              class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            ></div>
+
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            >
+              <div class="text-center text-white px-4">
+                <h3 class="text-xl font-semibold mb-2">Kitchen Leak Fix</h3>
+                <hr class="w-full" />
+                <p class="text-sm">Fixed an under-sink leak within 1 hour.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-col py-12 bg-sky-50">
+      <p
+        class="font-semibold text-4xl font-bold md:text-3xl text-center text-blue-500"
+      >
+        Providing excellent services for the last 25 years
+      </p>
+      <div
+        class="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-y-5 lg:gap-y-0 gap-x-5 place-items-center w-full mx-auto max-w-7xl px-5"
+      >
+        <div
+          class="flex items-center px-4 h-[126px] w-full md:w-[281px] md:h-[192px] rounded-lg justify-self-center"
+        >
+          <div class="flex justify-center items-center">
+            <img
+              src="img/Icon/Community.png"
+              alt="Pipe Line Consultation"
+              class="w-[40px] h-[40px] md:w-[50px] md:h-[50px]"
+            />
+          </div>
+
+          <div class="flex flex-col ml-4">
+            <p class="font-bold text-3xl sm:text-4xl lg:text-5xl text-primary">
+              1200+
+            </p>
+            <p class="text-gray-600 text-lg">Happy Customers</p>
+          </div>
+        </div>
+
+        <div
+          class="flex items-center px-4 h-[126px] w-full md:w-[281px] md:h-[192px] rounded-lg justify-self-center"
+        >
+          <div class="flex justify-center items-center">
+            <img
+              src="img/Icon/Pipe-Plumbing.png"
+              alt="Pipe Line Consultation"
+              class="w-[40px] h-[40px] md:w-[50px] md:h-[50px]"
+            />
+          </div>
+
+          <div class="flex flex-col ml-4">
+            <p class="font-bold text-3xl sm:text-4xl lg:text-5xl text-primary">
+              8,714+
+            </p>
+            <p class="text-gray-600 text-lg">Installed Units</p>
+          </div>
+        </div>
+
+        <div
+          class="flex items-center px-4 h-[126px] w-full md:w-[281px] md:h-[192px] rounded-lg justify-self-center"
+        >
+          <div class="flex justify-center items-center">
+            <img
+              src="img/Icon/Building.png"
+              alt="Pipe Line Consultation"
+              class="w-[40px] h-[40px] md:w-[50px] md:h-[50px]"
+            />
+          </div>
+
+          <div class="flex flex-col ml-4">
+            <p class="font-bold text-3xl sm:text-4xl lg:text-5xl text-primary">
+              1600+
+            </p>
+            <p class="text-gray-600 text-lg">Home Served</p>
+          </div>
+        </div>
+
+        <div
+          class="flex items-center px-4 h-[126px] w-full md:w-[281px] md:h-[192px] rounded-lg justify-self-center"
+        >
+          <div class="flex justify-center items-center">
+            <img
+              src="img/Icon/Vector.png"
+              alt="Pipe Line Consultation"
+              class="w-[40px] h-[40px] md:w-[50px] md:h-[50px]"
+            />
+          </div>
+
+          <div class="flex flex-col ml-4">
+            <p class="font-bold text-3xl sm:text-4xl lg:text-5xl text-primary">
+              500+
+            </p>
+            <p class="text-gray-600 text-lg">Professional</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="bg-gray-50 py-16">
+      <div class="max-w-6xl mx-auto px-4">
+        <h3
+          class="text-sky-500 font-semibold mb-2 flex items-center justify-center gap-2"
+        >
+          Customer Testimonial
+          <span>⟶</span>
+        </h3>
+        <h2 class="text-3xl font-semibold text-blue-950 mb-12 text-center">
+          Our Partner & Customer Give <br />
+          The Best Review For Us
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+          <figure
+            class="flex flex-col items-start justify-start p-8 text-left bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+          >
+            <blockquote class="mb-4 text-blue-950 lg:mb-6 dark:text-gray-400">
+              <img src="img/stars.png" alt="" />
+              <p class="my-4">
+                Lorem ipsum dolor sit amet consectetur. Pretium malesuada
+                pulvinar sed feugiat sem est nisl pharetra. Facilisis ridiculus
+                amet commodo aliquet a phasellus malesuada. Ac id quam mattis
+                neque. Urna tellus ut maecenas interdum. Euismod egestas
+                scelerisque."
+              </p>
+            </blockquote>
+            <figcaption class="flex items-center justify-start text-left">
+              <img
+                class="rounded-full w-10 h-10"
+                src="img/Michael Adam.png"
+                alt="profile picture"
+              />
+
+              <div class="ml-3 flex flex-col items-start">
+                <span class="font-bold text-lg text-blue-950 dark:text-white">
+                  Michael Adam.png
+                </span>
+                <span class="text-sm text-blue-950 dark:text-gray-400">
+                  Hotel Manager
+                </span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="flex flex-col items-start justify-start p-8 text-left bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+          >
+            <blockquote class="mb-4 text-blue-950 lg:mb-6 dark:text-gray-400">
+              <img src="img/stars.png" alt="" />
+              <p class="my-4">
+                Lorem ipsum dolor sit amet consectetur. Pretium malesuada
+                pulvinar sed feugiat sem est nisl pharetra. Facilisis ridiculus
+                amet commodo aliquet a phasellus malesuada. Ac id quam mattis
+                neque. Urna tellus ut maecenas interdum. Euismod egestas
+                scelerisque."
+              </p>
+            </blockquote>
+            <figcaption class="flex items-center justify-start text-left">
+              <img
+                class="rounded-full w-10 h-10"
+                src="img/Wade Warren.png"
+                alt="profile picture"
+              />
+
+              <div class="ml-3 flex flex-col items-start">
+                <span class="font-bold text-lg text-blue-950 dark:text-white">
+                  Wade Warren
+                </span>
+                <span class="text-sm text-blue-950 dark:text-gray-400">
+                  Marketing Coordinator
+                </span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="flex flex-col items-start justify-start p-8 text-left bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+          >
+            <blockquote class="mb-4 text-blue-950 lg:mb-6 dark:text-gray-400">
+              <img src="img/stars.png" alt="" />
+              <p class="my-4">
+                Lorem ipsum dolor sit amet consectetur. Pretium malesuada
+                pulvinar sed feugiat sem est nisl pharetra. Facilisis ridiculus
+                amet commodo aliquet a phasellus malesuada. Ac id quam mattis
+                neque. Urna tellus ut maecenas interdum. Euismod egestas
+                scelerisque."
+              </p>
+            </blockquote>
+            <figcaption class="flex items-center justify-start text-left">
+              <img
+                class="rounded-full w-10 h-10"
+                src="img/Albert Flores.png"
+                alt="profile picture"
+              />
+
+              <div class="ml-3 flex flex-col items-start">
+                <span class="font-bold text-lg text-blue-950 dark:text-white">
+                  Albert Flores
+                </span>
+                <span class="text-sm text-blue-950 dark:text-gray-400">
+                  President of Sales
+                </span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-50 py-16">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h3 class="text-sky-500 font-semibold mb-2 gap-2 text-start">
+          Worked With
+          <span>⟶</span>
+        </h3>
+        <h2 class="text-3xl font-bold text-blue-950 mb-12">Our Partners</h2>
+
+        <div
+          class="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center"
+        >
+          <img
+            src="img/Slack 2.svg"
+            class="h-12 mx-auto fill-blue-950 hover:fill-sky-500 transition-colors duration-300"
+            alt="Partner 1"
+          />
+          <img
+            src="img/WooCommerce 1.svg"
+            class="h-12 mx-auto grayscale hover:grayscale-0 transition"
+            alt="Partner 2"
+          />
+          <img
+            src="img/Sitpoint 1.svg"
+            class="h-12 mx-auto grayscale hover:grayscale-0 transition"
+            alt="Partner 3"
+          />
+          <img
+            src="img/paypal.svg"
+            class="h-12 mx-auto grayscale hover:grayscale-0 transition"
+            alt="Partner 4"
+          />
+          <img
+            src="img/Vector.png"
+            class="h-12 mx-auto grayscale hover:grayscale-0 transition"
+            alt="Partner 5"
+          />
+          <img
+            src="img/Medium 1.svg"
+            class="h-12 mx-auto grayscale hover:grayscale-0 transition"
+            alt="Partner 6"
+          />
+          <img
+            src="img/amazone.png"
+            class="h-12 mx-auto grayscale hover:grayscale-0 transition"
+            alt="Partner 6"
+          />
+          <img
+            src="img/Adobe 1.svg"
+            class="h-12 mx-auto grayscale hover:grayscale-0 transition"
+            alt="Partner 6"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-sky-50 py-16">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h3 class="text-sky-500 font-semibold mb-2 gap-2 text-start">
+          Our Blog <span>⟶</span>
+        </h3>
+        <h2 class="text-3xl font-bold text-blue-950 mb-12">
+          Emergency Tips & Tricks
+        </h2>
+        <h4 class="text-lg font-normal text-blue-950 mb-12">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+          semper placerat metus.
+        </h4>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div
+            class="bg-white shadow-lg overflow-hidden relative flex hover:shadow-xl transition"
+          >
+            <img
+              src="img/blog1.png"
+              alt="How to Fix Leaky Faucets"
+              class="w-1/2 object-cover"
+            />
+            <div
+              class="px-6 py-6 flex flex-col justify-between w-2/3 text-left"
+            >
+              <div>
+                <h3 class="text-xl font-semibold text-blue-950 mb-2">
+                  How to Fix Leaky Faucets
+                </h3>
+                <p class="text-gray-600 mb-4">
+                  Learn quick and easy steps to stop faucet leaks and save on
+                  your water bill.
+                </p>
+              </div>
+              <a href="#" class="text-sky-500 font-medium hover:underline"
+                >Read More →</a
+              >
+            </div>
+            <span
+              class="absolute bottom-3 left-3 bg-sky-500 text-white text-xs font-semibold px-3 py-1 rounded"
+            >
+              TIPS & TRICKS
+            </span>
+          </div>
+
+          <div
+            class="bg-white shadow-lg overflow-hidden relative flex hover:shadow-xl transition"
+          >
+            <img
+              src="img/blog2.png"
+              alt="Winter Plumbing Tips"
+              class="w-1/2 object-cover"
+            />
+            <div
+              class="px-6 py-6 flex flex-col justify-between w-2/3 text-left"
+            >
+              <div>
+                <h3 class="text-xl font-semibold text-blue-950 mb-2">
+                  Winter Plumbing Tips
+                </h3>
+                <p class="text-gray-600 mb-4">
+                  Protect your pipes this winter with these essential plumbing
+                  care tips.
+                </p>
+              </div>
+              <a href="#" class="text-sky-500 font-medium hover:underline"
+                >Read More →</a
+              >
+            </div>
+            <span
+              class="absolute bottom-3 left-3 bg-sky-500 text-white text-xs font-semibold px-3 py-1 rounded"
+            >
+              TIPS & TRICKS
+            </span>
+          </div>
+
+          <div
+            class="bg-white shadow-lg overflow-hidden relative flex hover:shadow-xl transition"
+          >
+            <img
+              src="img/service1.jpg"
+              alt="Winter Plumbing Tips"
+              class="w-1/2 object-cover"
+            />
+            <div
+              class="px-6 py-6 flex flex-col justify-between w-2/3 text-left"
+            >
+              <div>
+                <h3 class="text-xl font-semibold text-blue-950 mb-2">
+                  Winter Plumbing Tips
+                </h3>
+                <p class="text-gray-600 mb-4">
+                  Protect your pipes this winter with these essential plumbing
+                  care tips.
+                </p>
+              </div>
+              <a href="#" class="text-sky-500 font-medium hover:underline"
+                >Read More →</a
+              >
+            </div>
+            <span
+              class="absolute bottom-3 left-3 bg-sky-500 text-white text-xs font-semibold px-3 py-1 rounded"
+            >
+              TIPS & TRICKS
+            </span>
+          </div>
+
+          <div
+            class="bg-white shadow-lg overflow-hidden relative flex hover:shadow-xl transition"
+          >
+            <img
+              src="img/service5.jpg"
+              alt="Winter Plumbing Tips"
+              class="w-1/2 object-cover"
+            />
+            <div
+              class="px-6 py-6 flex flex-col justify-between w-2/3 text-left"
+            >
+              <div>
+                <h3 class="text-xl font-semibold text-blue-950 mb-2">
+                  Winter Plumbing Tips
+                </h3>
+                <p class="text-gray-600 mb-4">
+                  Protect your pipes this winter with these essential plumbing
+                  care tips.
+                </p>
+              </div>
+              <a href="#" class="text-sky-500 font-medium hover:underline"
+                >Read More →</a
+              >
+            </div>
+            <span
+              class="absolute bottom-3 left-3 bg-sky-500 text-white text-xs font-semibold px-3 py-1 rounded"
+            >
+              TIPS & TRICKS
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-100">
+      <footer class="bg-gray-800 text-white">
+        <div class="py-12">
+          <div class="px-40 py-12 flex items-center justify-between">
+            <h2 class="font-semibold text-5xl">
+              Contact us to get a quotation.
+            </h2>
+
+            <button
+              type="submit"
+              class="bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300"
+            >
+              Contact Us
+            </button>
+          </div>
+
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div>
+                <h3 class="text-xl font-bold mb-6">Contact</h3>
+                <p class="mb-2">📍 3249 Discovery Street, Kansas 67204</p>
+                <p class="mb-2">✉️ info@template.com</p>
+                <p class="mb-4">📞 + (100) 234-5678</p>
+
+                <h4 class="text-lg font-bold mb-2">Emergency 24/7 Service</h4>
+                <p class="mb-6">📞 +1-800-777-584</p>
+
+                <div class="flex space-x-4">
+                  <a
+                    href="#"
+                    class="w-10 h-10 flex items-center justify-center rounded-full bg-white text-black hover:bg-gray-700 transition"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="w-10 h-10 flex items-center justify-center rounded-full bg-white text-black hover:bg-gray-700 transition"
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="w-10 h-10 flex items-center justify-center rounded-full bg-white text-black hover:bg-gray-700 transition"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="w-10 h-10 flex items-center justify-center rounded-full bg-white text-black hover:bg-gray-700 transition"
+                  >
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div>
+                <h3 class="text-xl font-bold mb-6">Navigation</h3>
+                <ul class="space-y-3">
+                  <li><a href="#" class="hover:text-red-500">Home</a></li>
+                  <li><a href="#" class="hover:text-red-500">Service</a></li>
+                  <li><a href="#" class="hover:text-red-500">Blog</a></li>
+                  <li><a href="#" class="hover:text-red-500">Our Teams</a></li>
+                  <li><a href="#" class="hover:text-red-500">Contact Us</a></li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 class="text-xl font-bold mb-6">Newsletter</h3>
+                <p class="text-gray-300 mb-6 text-sm">
+                  Get the latest tips, updates, offers, and discounts right into
+                  your mailbox.
+                </p>
+                <form class="space-y-4">
+                  <input
+                    type="email"
+                    placeholder="Your Email"
+                    class="w-full px-4 py-3 bg-gray-700 text-white placeholder-gray-400 border border-gray-600 rounded-lg focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500"
+                  />
+                  <button
+                    type="submit"
+                    class="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-4 rounded-lg transition-colors duration-300"
+                  >
+                    Subscribe Now
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="border-t border-gray-700 py-6">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div
+              class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400 gap-4"
+            >
+              <p>
+                © Copyright 2025 by Housefix. Designed & Developed by Hexaweave.
+                Powered by Webflow
+              </p>
+              <div class="flex space-x-6">
+                <a href="#" class="hover:text-white transition-colors"
+                  >Privacy & Policy</a
+                >
+                <a href="#" class="hover:text-white transition-colors"
+                  >Terms & Conditions</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="./node_modules/@fortawesome/fontawesome-free/css/all.min.css"></script>
+  </body>
+</html>
